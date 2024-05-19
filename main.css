@@ -1,0 +1,100 @@
+
+body{
+    background-color: aquamarine;
+}
+.banner-img
+{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+background-color: white;
+width: 700px;
+height: 500px;
+margin: 100px 375px ;
+border-radius: 15px;
+}
+#title
+{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    /* height: 300px; */
+    margin: 130px 0px 0px 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: x-large;
+ 
+}
+#desc
+{
+    display: flex;
+    flex-direction: row;
+    /* width: 600px; */
+    margin: 30px 0px 0px 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: small;
+    color:darkgray;
+}
+.boxone
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px; 
+
+}
+.boxtwo
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+
+}
+#price
+{
+    display: flex;
+    flex-direction: row;
+    /* width: 600px; */
+    margin: 50px 0px 0px 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: x-large;
+    color:black;
+
+}
+#rating
+{
+    display: flex;
+    flex-direction: row;
+    /* width: 600px; */
+    margin: 20px 0px 0px 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: medium;
+    color:black;
+
+}
+#prev
+{
+    width: 70px;
+    height: 30px;
+   position: relative;
+   left: 500px;
+   bottom: 150px;
+   background-color: orange;
+   color: white;
+   border-radius: 5px;
+   border-color: orange;
+}
+#next
+{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border-color: orange;
+}
