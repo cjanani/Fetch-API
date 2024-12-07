@@ -1,7 +1,7 @@
 ### Fetch API Project
 
 <div align="left">
-  This project;s aim is to fetches data from the DummyJSON API(https://dummyjson.com/docs/products) to display a curated list of products. Each product is dynamically rendered with its title, description, price, and rating. 
+  This project's aim is to fetches data from the DummyJSON API(https://dummyjson.com/docs/products) to display a curated list of products. Each product is dynamically rendered with its title, description, price, and rating. 
 </div>
 <br/>
 
